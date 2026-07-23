@@ -1,6 +1,6 @@
-﻿using PicoNet.Domain.Entities.Common.Interfaces;
+﻿using Domain.Common.Interfaces;
 
-namespace PicoNet.Domain.Entities.Common.Concrete;
+namespace Domain.Common.Concrete;
 
 public abstract class Entity<TId> : IEntity<TId>, IEquatable<Entity<TId>>, IHasDomainEvents 
     where TId : notnull

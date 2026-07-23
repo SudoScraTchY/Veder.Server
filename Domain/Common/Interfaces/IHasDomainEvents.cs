@@ -1,4 +1,4 @@
-﻿namespace PicoNet.Domain.Entities.Common.Interfaces;
+﻿namespace Domain.Common.Interfaces;
 
 public interface IHasDomainEvents
 {

@@ -8,4 +8,8 @@
         <UserSecretsId>8b378520-f17f-4fa1-91ca-b9a10f52c351</UserSecretsId>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Aspire.Hosting.Garnet" Version="13.4.6" />
+    </ItemGroup>
+
 </Project>

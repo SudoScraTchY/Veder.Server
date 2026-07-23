@@ -12,4 +12,8 @@
       <Folder Include="Helpers\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Specification" Version="1.0.1" />
+    </ItemGroup>
+
 </Project>
