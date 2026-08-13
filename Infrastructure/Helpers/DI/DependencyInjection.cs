@@ -1,9 +1,12 @@
-﻿namespace Infrastructure.Helpers.DI;
+﻿using Microsoft.Extensions.DependencyInjection;
+
+namespace Infrastructure.Helpers.DI;
 
 public static class DependencyInjection
 {
-    public static WebApplicationBuilder AddInfrastructure(this WebApplicationBuilder builder)
+    public static ServiceCollection AddInfrastructure(this ServiceCollection services)
     {
-        
+
+        return services;
     }
 }

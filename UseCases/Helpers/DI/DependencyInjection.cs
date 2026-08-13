@@ -1,9 +1,12 @@
-﻿namespace UseCases.Helpers.DI;
+﻿using Microsoft.Extensions.DependencyInjection;
+
+namespace UseCases.Helpers.DI;
 
 public static class DependencyInjection
 {
-    public static WebApplicationBuilder AddUseCases(this WebApplicationBuilder builder)
+    public static ServiceCollection AddUseCases(this ServiceCollection services)
     {
-        
+
+        return services;
     }
 }
